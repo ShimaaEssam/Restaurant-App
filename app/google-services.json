@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "303963162534",
+    "firebase_url": "https://eatit-763b7.firebaseio.com",
+    "project_id": "eatit-763b7",
+    "storage_bucket": "eatit-763b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303963162534:android:63aa6b8cffcc791c",
+        "android_client_info": {
+          "package_name": "com.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303963162534-c54lt6vhr7r5eg4uej6nrdel2ppjt948.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.restaurant",
+            "certificate_hash": "08474cb96439965825b27154fd7be4fd35651edd"
+          }
+        },
+        {
+          "client_id": "303963162534-scvnbpmf92e5gdeqtq7k225qnbe9hknq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp5LQ3k9YDEZvrQfaylqNxFCCTjos5ASU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303963162534-scvnbpmf92e5gdeqtq7k225qnbe9hknq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303963162534:android:3f4fa551d34cc26f",
+        "android_client_info": {
+          "package_name": "com.restaurantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303963162534-98vqctqvtnk3ecmfhqlraaptbc7nms2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.restaurantapp",
+            "certificate_hash": "f82f67724c10305465e101e4c924bdf386614194"
+          }
+        },
+        {
+          "client_id": "303963162534-scvnbpmf92e5gdeqtq7k225qnbe9hknq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp5LQ3k9YDEZvrQfaylqNxFCCTjos5ASU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303963162534-scvnbpmf92e5gdeqtq7k225qnbe9hknq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303963162534:android:fbe04a6947c9d610",
+        "android_client_info": {
+          "package_name": "restaurant.eatit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303963162534-vh3edi0j80g6163f50hgnji7ik21n3s0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "restaurant.eatit",
+            "certificate_hash": "93e82fce745bad520b5c271c318edbfff981bc09"
+          }
+        },
+        {
+          "client_id": "303963162534-scvnbpmf92e5gdeqtq7k225qnbe9hknq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp5LQ3k9YDEZvrQfaylqNxFCCTjos5ASU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303963162534-scvnbpmf92e5gdeqtq7k225qnbe9hknq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

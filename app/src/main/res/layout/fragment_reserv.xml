@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".user.fragment.ReservFragment">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/darkgrey"
+        android:background="@drawable/view_shape"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/reservName"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/darkgrey"
+        android:background="@drawable/view_shape"
+        android:inputType="phone"
+        android:layout_marginBottom="20dp"
+        android:hint="Phone Number"
+        android:id="@+id/reservNumber"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Booking Details"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="@color/darkgrey"
+        android:background="@drawable/view_shape"
+        android:inputType="number"
+        android:hint="Number of people"
+        android:id="@+id/reservNumberPeople"
+        android:drawablePadding="10dp"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_date"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/darkgrey"
+        android:background="@drawable/view_shape"
+        android:inputType="text"
+        android:hint="Choose the Date"
+        android:clickable="true"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="10dp"
+        android:editable="false"
+        android:id="@+id/reservDate"
+        android:focusable="false"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/darkgrey"
+        android:background="@drawable/view_shape"
+        android:inputType="text"
+        android:hint="Choose the time"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/reservTime"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/background_shape"
+        android:id="@+id/bookNow"
+        android:layout_marginTop="5dp"
+        android:text="Book Now"
+        android:textColor="@color/white"/>
+    <ProgressBar
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/progressBarBook"
+        android:visibility="gone"/>
+
+</LinearLayout>
